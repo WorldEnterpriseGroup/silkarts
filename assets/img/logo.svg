@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 60" width="180" height="60">
+  <defs>
+    <style>
+      .silk-text {
+        font-family: 'Playfair Display', serif;
+        font-size: 32px;
+        font-weight: 700;
+        fill: #E91E8C;
+      }
+      .arts-text {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        fill: #E91E8C;
+      }
+      .flourish {
+        fill: none;
+        stroke: #E91E8C;
+        stroke-width: 2;
+        stroke-linecap: round;
+        opacity: 0.7;
+      }
+    </style>
+  </defs>
+
+  <!-- Artistic flourish - subtle brush stroke -->
+  <path class="flourish" d="M 5 30 Q 15 20, 25 28 Q 35 36, 45 30" />
+
+  <!-- SILK text -->
+  <text x="52" y="35" class="silk-text">SILK</text>
+
+  <!-- ARTS text -->
+  <text x="52" y="52" class="arts-text">ARTS</text>
+</svg>
